@@ -1,49 +1,18 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.headerImage {
-    width: 100vw;
-    height: auto;
-    z-index: 0;
+/* this lets me call the colors by name instead of inputting them every time */
+:root{
+
+    --first-color: #D2B1CD;
+    --dark-color: #736372;
+    --dark-color-alt: #878282;
+    --body-color: #fff9ec;
+    --text-color: #2B2B2B;
+ 
+   
 }
 
-.logo img {
- width: 100px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    list-style-type: none;
-    top: 0;
-    z-index: 1;
-}
-
-.header {
-    width: 100%;
-    height: var(--header-height);
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 1.5rem;
-    background-color: var(--dark-color);
-    z-index: var(--z-fixed);
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-*, ::before, ::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
