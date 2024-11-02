@@ -239,10 +239,18 @@ img {
         height: 100vh;
         padding: 1.5rem 0;
         z-index: var(--z-fixed);
-        transition: .5s;
+        transition: 0.5s;
     }
 
     .container {
         display: none;
+    }
+
+    #nav-menu.show {
+        left: 0;
+    }
+
+    .nav_content {
+        margin-left: 30px;
     }
 }
