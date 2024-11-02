@@ -245,7 +245,69 @@ img {
     margin: 0 auto; 
   }
 
+  /* About page */
+
+  .abcontainer {
+    display: grid; 
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
+
+  .grid-item1 {
+    margin: 0 auto;
+    margin-bottom: 5em;
+  }
+
+ 
+
+.grid-item1 .gaming {
+    margin: 0 auto;
+    height: auto;
+    width: 80%;
+    display: block;
+}
+
+.grid-item1 p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 1.1em;
+}
+
+/* Skills page */
+
+
+.skills {
+    text-align: center; 
+    
+  }
+
+.resume2 {
+    border: 2px solid #2B2B2B;
+    margin: 0 auto;
+  }
+
+
+
+  .contactlink {
+    color: #2B2B2B;
+    
+    
+  }
   
+  .contactlink:hover {
+    text-decoration: underline; 
+  }
+  
+  .skills p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
 
 @media screen and (min-width: 768px) {
     body {
@@ -336,6 +398,10 @@ img {
 
     .nav_content {
         margin-left: 30px;
+    }
+
+    .abcontainer {
+        display: block;
     }
 }
 
